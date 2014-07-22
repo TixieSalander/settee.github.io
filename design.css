@@ -1,0 +1,467 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #2d221d;
+}
+/* HEADER */
+
+header {
+    color: #fff;
+    background: #2d221d url(images/bg-header.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+/* Logo */
+
+header #logo {
+    float: left;
+    padding: 0em 1em;
+    font-size: 1.1em;
+}
+header h1 img {
+    height: 5em;
+}
+/* Menu */
+
+nav {
+    float: right;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+nav li {
+    display: inline;
+}
+nav li a {
+    display: inline-block;
+    margin-left: 0.1em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border: 0.15em solid transparent;
+    border-radius: 5em;
+    transition: all 0.15s;
+}
+nav li a:hover {
+    border: 0.15em solid #eaa502;
+    transition: all 0.15s;
+}
+nav li a.dllink {
+    border: 0.15em solid #eaa502;
+}
+nav li a.dllink:hover,
+nav li a:active {
+    color: #2d221d;
+    background: #eaa502;
+}
+/* Home cover */
+
+header #homecover {
+    padding: 5em 0;
+    padding-top: 2em;
+    color: #fff;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 0.1em 0.1em 0 #000;
+}
+header #homecover h2 {
+    display: inline-block;
+    font-size: 4em;
+    padding: 0.5em 0;
+    margin-bottom: 0.25em;
+    border-bottom: 0.06em solid #eaa502;
+}
+header #homecover h3 {
+    padding-bottom: 0.25em;
+    font-size: 3.5em;
+}
+header #homecover h4 {
+    font-size: 1.5em;
+}
+/* CONTENT */
+
+/* Download button*/
+
+#dlbutton {
+    margin-top: -1.5em;
+    text-align: center;
+}
+#dlbutton a.dllink {
+    display: inline-block;
+    padding: 0 1.5em;
+    font-size: 1.2em;
+    height: 2.5em;
+    line-height: 2.5em;
+    color: #2d221d;
+    text-decoration: none;
+    background: #eaa502;
+    border-radius: 5em;
+}
+#dlbutton p a {
+    display: inline-block;
+    margin-top: 0.25em;
+    color: #606060;
+    font-size: 0.9em;
+    font-style: italic;
+    text-decoration: none;
+}
+#dlbutton p a:hover {
+    text-decoration: underline;
+}
+/* Section */
+
+section {
+    padding: 1em 0;
+    color: #6c6760;
+    background: #f0f0f0;
+}
+section a {
+    color: #6c6760;
+}
+section img {
+    max-width: 100%;
+}
+section .title h2 {
+    color: #eaa502;
+    font-size: 1.8em;
+    text-align: center;
+}
+section#blog aside,
+section#page aside {
+    float: left;
+    width: 12em;
+    text-align: center;
+}
+section aside .title h2 {
+    margin-bottom: 0.3em;
+    font-size: 2em;
+    background: no-repeat center top;
+    background-size: 70% auto;
+}
+section#blog .articles,
+section#page .pagecontent {
+    float: right;
+    width: calc(100% - 12.5em);
+}
+/* Page section */
+
+section#page article {
+    margin: 1em 0;
+    line-height: 1.7em;
+}
+section#page article h3 {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+section#page.about aside .title h2 {
+    padding-top: 4em;
+    background-image: url(images/ico-about.svg);
+}
+/* Contact section */
+
+section#page.contact aside .title h2 {
+    padding-top: 4.5em;
+    background-image: url(images/ico-contact.svg);
+}
+section#page.contact .pagecontent {
+    font-size: 1.3em;
+    text-align: center;
+}
+section#page.contact .pagecontent h3 {
+    margin: 0.5em 0;
+}
+/* BLOG */
+
+/* Blog aside */
+
+section#blog aside .title h2 {
+    padding-top: 5.5em;
+    background-image: url(images/ico-blog.svg);
+}
+section#blog aside a {
+    color: #6c6760;
+    font-size: 0.9em;
+}
+section#blog article {
+    margin: 0.5em 0;
+}
+/* Header article */
+
+section#blog .articleheader {
+    margin-top: 1em;
+}
+section#blog .articleheader h3 {
+    font-size: 1.5em;
+    line-height: 1.3m;
+    color: #2d221d;
+}
+section#blog .articleheader .date {
+    padding: 0.5em 0;
+    color: #eaa502;
+    line-height: 1.2em;
+}
+/* Article content */
+
+section#blog .articlecontent {
+    margin: 0.5em 0;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+/* Article footer */
+
+section#blog .articlefooter {
+    padding: 0.5em 0;
+    text-align: right;
+}
+section#blog .articlefooter a {
+    display: inline-block;
+    color: #eaa205;
+    font-size: 0.9em;
+}
+section#blog hr {
+    width: 50%;
+    max-width: 15em;
+    margin: 2em auto;
+    background-color: #cbcbcb;
+    q height: 0.1em;
+    border: none;
+}
+/* Blog nav */
+
+section#blog #blognav {
+    text-align: center;
+}
+section#blog #blognav a {
+    display: inline-block;
+    padding: 0.3em 1em;
+    color: #6c6760;
+    font-size: 0.9em;
+    text-decoration: none;
+    border: 0.15em solid #eaa502;
+    border-radius: 5em;
+    transition: all 0.15s;
+}
+section#blog #blognav a:hover {
+    color: #2d221d;
+    background: #eaa502;
+}
+/* HOME PAGE */
+
+section#home {
+    margin-top: -2.65em;
+    padding-top: 3em;
+    text-align: center;
+}
+section#home article {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    margin: 0 3%;
+    margin-bottom: 1em;
+    padding-top: 5.5em;
+    line-height: 1.3em;
+    background: no-repeat center 0.5em;
+}
+section#home article p {
+    text-align: left;
+}
+section#home article.easyinstall {
+    background-image: url(images/ico-easyinstall.svg);
+}
+section#home article.accesslevels {
+    background-image: url(images/ico-accesslevels.svg);
+}
+section#home article.usephp {
+    background-image: url(images/ico-usephp.svg);
+}
+section#home article.responsive {
+    background-image: url(images/ico-responsive.svg);
+}
+section#home article.opensource {
+    background-image: url(images/ico-opensource.svg);
+}
+section#home article.translation {
+    background-image: url(images/ico-translation.svg);
+}
+/* FOOTER */
+
+/* Footer top */
+
+footer {
+    background: #2d221d;
+}
+footer .top {
+    padding: 1em 0;
+    color: #fff;
+}
+footer .top .col3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    margin: 0 3%;
+    text-align: center;
+}
+footer .top .col3 h3 {
+    display: inline-block;
+    padding: 0.4em 0em;
+    margin-bottom: 0.75em;
+    color: #eaa502;
+    font-size: 1.3em;
+}
+footer .top .col3 li {
+    text-align: center;
+}
+footer .top .col3 li a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-decoration: none;
+    border: 0.15em solid transparent;
+    border-radius: 5em;
+    transition: all 0.15s;
+}
+footer .top .col3 li a:hover {
+    text-decoration: underline;
+    transition: all 0.15s;
+}
+footer .top .col3 li a.donate {
+    display: block;
+    margin-top: -1em;
+    padding: 1em 0;
+    border-radius: 0 0 0.5em 0.5em;
+    background-color: rgba(00, 00, 00, 0.2);
+}
+footer .top .col3 li a.donate:hover {
+    text-decoration: none;
+    background-color: rgba(00, 00, 00, 0.4);
+}
+footer .top .col3 li a h3 {
+    display: block;
+}
+footer .top .col3 li a.donate img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+, Firefox on Android */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+footer .top .col3 li a.donate:hover img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+footer .top .col3 li a.donate2 {
+    font-style: italic;
+    font-size: 0.9em;
+}
+/* Footer bottom */
+
+footer .bottom {
+    color: #fff;
+    text-align: right;
+}
+footer .bottom .wrap {
+    padding: 1em 0;
+    border-top: 0.1em solid #606060;
+}
+footer .bottom a {
+    color: #fff;
+}
+/* MEDIA-QUERIES */
+
+@media (max-width: 45em) {
+    header #logo {
+        float: none;
+        text-align: center;
+    }
+    header nav {
+        float: none;
+        text-align: center;
+    }
+    header nav {
+        margin-top: 0;
+    }
+    header nav li a.dllink {
+        border-color: transparent;
+    }
+    header #homecover {
+        padding-top: 0.5em;
+    }
+    header #homecover h2 {
+        padding: 0.25em;
+        margin-bottom: 0.25em;
+    }
+    footer .top .col3 {
+        width: 94%;
+    }
+}
+@media (max-width: 30em) {
+    section#home article {
+        display: block;
+        width: 94%;
+        max-width: 20em;
+        margin: auto;
+    }
+    section#page aside,
+    section#blog aside {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    section#page aside .title h2,
+    section#blog aside .title h2,
+    section#page.about aside .title h2,
+    section#page.contact aside .title h2 {
+        padding: 0;
+        background-image: none;
+    }
+    section#blog .articles,
+    section#page .pagecontent {
+        float: none;
+        width: 95%;
+        margin: auto;
+    }
+    footer .bottom {
+        text-align: center;
+    }
+}
+/* COMMON */
+
+.clearfloat {
+    clear: both;
+}
+.wrap {
+    width: 98%;
+    max-width: 60em;
+    margin: auto;
+}
+b {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+/* FONTS */
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+/* Libre Baskerville */
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://themes.googleusercontent.com/static/fonts/librebaskerville/v2/pR0sBQVcY0JZc_ciXjFsK5Rby8KfwQsaipLBqMCVNtM.woff) format('woff');
+}
