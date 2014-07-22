@@ -1,0 +1,24 @@
+header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+header #logo {
+    float: none;
+    text-align: center;
+}
+header #homecover{
+position: absolute;
+    top: 50%;
+   left: 50%;
+    width: 47em;
+    margin-left: -23.5em;
+    height: 14em;
+    margin-top: -7em;
+    padding: 0;
+}
+header #homecover h2 {
+    padding: 0;
+    padding-bottom: 0.5em;
+
+}
