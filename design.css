@@ -293,6 +293,7 @@ footer {
 footer .top {
     padding: 1em 0;
     color: #fff;
+    text-align: center;
 }
 footer .top .col3 {
     display: inline-block;
@@ -301,17 +302,17 @@ footer .top .col3 {
     margin: 0 3%;
     text-align: center;
 }
-footer .top .col3 h3 {
+footer .top h3 {
     display: inline-block;
     padding: 0.4em 0em;
     margin-bottom: 0.75em;
     color: #eaa502;
     font-size: 1.3em;
 }
-footer .top .col3 li {
+footer .top li {
     text-align: center;
 }
-footer .top .col3 li a {
+footer .top li a {
     display: inline-block;
     padding: 0.5em 1em;
     color: #fff;
@@ -320,39 +321,12 @@ footer .top .col3 li a {
     border-radius: 5em;
     transition: all 0.15s;
 }
-footer .top .col3 li a:hover {
+footer .top li a:hover {
     text-decoration: underline;
     transition: all 0.15s;
 }
-footer .top .col3 li a.donate {
+footer .top li a h3 {
     display: block;
-    margin-top: -1em;
-    padding: 1em 0;
-    border-radius: 0 0 0.5em 0.5em;
-    background-color: rgba(00, 00, 00, 0.2);
-}
-footer .top .col3 li a.donate:hover {
-    text-decoration: none;
-    background-color: rgba(00, 00, 00, 0.4);
-}
-footer .top .col3 li a h3 {
-    display: block;
-}
-footer .top .col3 li a.donate img {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
-    /* Firefox 10+, Firefox on Android */
-    filter: gray;
-    /* IE6-9 */
-    -webkit-filter: grayscale(100%);
-    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-}
-footer .top .col3 li a.donate:hover img {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -webkit-filter: grayscale(0%);
-}
-footer .top .col3 li a.donate2 {
-    font-style: italic;
-    font-size: 0.9em;
 }
 /* Footer bottom */
 
